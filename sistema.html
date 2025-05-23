@@ -1,0 +1,28 @@
+<!DOCTYPE html id="index">
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Crimes</title>
+  <link rel="stylesheet" href="estilo/estilo.css" />
+  </head>
+
+<body id=" principal">
+
+  <h2>🚨 Sistema de Crimes</h2>
+
+  <p id="crime"></p>
+
+  <button onclick="mostrarCrime()">🔍 Procurar crime</button>
+  <button onclick="resolverCrime()" id="resolverBtn">✅ Resolver Crime</button>
+  <button onclick="baixarHistorico()">📥 Baixar Histórico</button>
+  <button onclick="limparHistorico()">🗑️ Limpar Histórico</button>
+
+  <div id="historico">
+    <h3>Histórico de Crimes</h3>
+  </div>
+
+  <script src="script/sistema.js"></script>
+ <script src="script/reload.js"></script>
+</body>
+</html>
