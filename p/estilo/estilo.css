@@ -1,0 +1,156 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#negado{
+  background-image: url('imagem/negado.png');
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;  /* evita repetição */
+  background-size: cover;        /* cobre toda a área */
+  background-position: center;   /* centraliza a imagem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body {
+
+  background-image: url('imagem/spider.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#principal {
+  width: 90%; /* ou um tamanho fixo como 400px */
+  max-width: 600px; /* opcional para limitar tamanho */
+  background-image: url('imagem/spider.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px #e74c3c;
+  border: 1px solid #e74c3c;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px #e74c3c);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 1rem;
+  
+}
+
+h2 {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e74c3c;
+  text-shadow: 0 0 5px #e74c3c;
+}
+
+#crime {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #e74c3c;
+  text-shadow: 0 0 5px #e74c3c;
+}
+
+button {
+    display: block;          /* botão ocupa linha toda */
+    width: 220px;            /* largura fixa */
+    margin: 0 auto;          /* centraliza horizontalmente */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: transparent ;
+    color: #dddddd;
+    border: 2px solid #e74c3c;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #e74c3c;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+button:hover {
+  background-color: #e74c3c;
+  color: white;
+  box-shadow: 0 0 10px #e74c3c;
+}
+
+#historico {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #34495e;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  color: white;
+  box-shadow: 0 0 10px #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+.crime-item {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #16a085;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 0 10px #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+a{
+  color: #000;
+}
+
+#acesso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('imagem/acesso.png');
+  background-size: cover; 
+    background-position: center; 
+  background-repeat: no-repeat;  /* evita repetição */
+  margin: 0; /* tira margem pra não desalinhar */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#senhaInput {
+  background-color: transparent ;     /* mesmo fundo do bloco */
+  border: 1px transparent #555;     /* borda parecida, suave */
+  color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  width: 15%;
+  box-sizing: border-box;
+  margin: 10px 0;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+
+#tituloacesso {
+  background: linear-gradient(to right, #1a4fb6, #f70101); /* azul → vermelho */
+  -webkit-background-clip: text;
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-weight: bold; 
+}
